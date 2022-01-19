@@ -221,7 +221,7 @@ AdPushup (New Delhi, India Office). Check out http://careers.adpushup.com
             y += h;
             for (i = a; i >= b; i--) {
                 color = '#' + (Math.random() * 0xFFFFFF << 0).toString(16);
-				boardBg.fillStyle = "black"; //changed color to "black"
+				boardBg.fillStyle = "853f2c";//changed color to "black"
                 boardBg.fillRect(x, y, w, h);
                 boardBg.fillStyle = '#ffffff';
                 boardBg.fillText(i, x + (w / 10), y + (h / 5));
@@ -237,7 +237,7 @@ AdPushup (New Delhi, India Office). Check out http://careers.adpushup.com
             y += h;
             for (i = b - 10; i <= a - 10; i++) {
                 color = '#' + (Math.random() * 0xFFFFFF << 0).toString(16);
-				boardBg.fillStyle = "black";
+				boardBg.fillStyle = "#d99886";
                 boardBg.fillRect(x, y, w, h);
                 boardBg.fillStyle = '#ffffff';
                 boardBg.fillText(i, x + (w / 10), y + (h / 5));
